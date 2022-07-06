@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,17 +13,16 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lobster&family=Manrope&family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <section>
-        <div id="cover-background">
-            <div id="top-container">
-                <h1 id="top-title">Let’s Help Those Who Are
-                    More In Need</h1>
-                <p id="cover-intro">"Giving is not just making a donation, it is about making a difference"</p>
-                <a class="donate-button" target="_blank" href="">Donate Now</a>
-            </div>
+    <section class="cover-background ">
+        <div id="top-container">
+            <h1 class="top-title">Let’s Help Those Who Are
+                More In Need</h1>
+            <p class="cover-intro">"Giving is not just making a donation, it is about making a difference"</p>
+            <a class="donate-button" target="_blank" href="">Donate Now</a>
         </div>
     </section>
     <section>
@@ -31,25 +31,25 @@
             year. By donating you are
             helping one person to get access to atleast two meals per day. And, We tell you that your donation makes
             a difference!</p>
-        <!-- <div id="rectangle-shape-container">
-            <div>
-                <h2 class="rectangle-shape text-align">100tk</h2>
+        <div class="rectangle-shape-container">
+            <div class="rectangle-shape">
+                <h2 class="text-align">100tk</h2>
             </div>
-            <div>
-                <h2 class="rectangle-shape text-align">200tk</h2>
+            <div class="rectangle-shape-red">
+                <h2 class="text-align">200tk</h2>
             </div>
-            <div>
-                <h2 class="rectangle-shape text-align">500tk</h2>
+            <div class="rectangle-shape">
+                <h2 class="text-align">500tk</h2>
             </div>
-            <div>
-                <h2 class="rectangle-shape text-align">1000tk</h2>
+            <div class="rectangle-shape">
+                <h2 class="text-align">1000tk</h2>
             </div>
-            <div>
-                <h2 class="rectangle-shape text-align">5000tk</h2>
+            <div class="rectangle-shape">
+                <h2 class="text-align">5000tk</h2>
             </div>
-        </div> -->
+        </div>
         <div>
-            <input class="donation-input-area" type="text" placeholder="Other Amount(Taka)">
+            <input class="donation-input-area" type="number" placeholder="Other Amount(Taka)">
         </div>
         <div>
             <a class="donate-button-today" target="_blank" href="">Donate Now</a>
@@ -57,36 +57,71 @@
     </section>
     <section>
         <h1 class="donate-section-title">Our Donate Plan</h1>
-        <p class="donation-section-intro">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli
-            deterruisset. No duo populo animal noluisse, enim</p>
+        <p class="donation-section-intro">We divided the donation plan into three packages. You can decide to choose one
+            of them. Remember, choosing one of them means, you are doing something significant.</p>
 
         <div class="flexible-container">
             <div class="card card-color-1">
-                <img src="icons/food.png" alt="Loading Image....">
+                <img class="image-shape-margin" src="icons/food.png" alt="Loading Image....">
                 <h2>Food for a family</h2>
-                <p>Amet minim mollit non deserunt
-                    ullamco est sit aliqua dolor do amet
-                    sint. Velit officia consequat duis enim
-                    velit mollit.</p>
+                <p>This plan contains full meals for a day of a family. We try to provide the quality food for
+                    nutritions and qunatity is also part of it.</p>
             </div>
             <div class="card card-color-2">
-                <img src="icons/shelter.png" alt="Loading Image....">
+                <img class="image-shape-margin" src="icons/shelter.png" alt="Loading Image....">
                 <h2>Shelter for a family</h2>
-                <p>Amet minim mollit non deserunt
-                    ullamco est sit aliqua dolor do amet
-                    sint. Velit officia consequat duis enim
-                    velit mollit.</p>
+                <p>People who are affected by natural disaster needs a home or sheter to stay. And this plan deals with
+                    that. We provide many shelters all over the country.</p>
             </div>
             <div class="card card-color-3">
-                <img src="icons/Frame-1.png" alt="Loading Image....">
+                <img class="image-shape-margin" src="icons/Frame-1.png" alt="Loading Image....">
                 <h2>Education for a child</h2>
-                <p>Amet minim mollit non deserunt
-                    ullamco est sit aliqua dolor do amet
-                    sint. Velit officia consequat duis enim
-                    velit mollit.</p>
+                <p>Millions of people get effected from natural disaster in this country and children are majority of
+                    them. They need food, they need shelter, morelikely, they need education. And, We try to provide it
+                    to them in the best way we can.</p>
             </div>
         </div>
     </section>
+    <section>
+        <div class="contribute-cover contribute-container">
+            <div class="half-width">
+                <img src="images/donation5.jpg" alt="Loading Image....">
+            </div>
+            <div class="half-width contribute-intro-container">
+                <h1 id="contribute-title">They need us
+                    to suvive</h1>
+                <p class="contribute-info-margin cover-intro ">
+                    Climate change and natural disasters in Bangladesh show the need to focus on vulnerable
+                    populations.
+                    Living in a country where a quarter of the land lives barely above sea-level, the people of
+                    Bangladesh are especially
+                    vulnerable to the effects of climate change and the havoc wrought by natural hazards.
+                </p>
+                <a class="donate-button" target="_blank"
+                    href="https://reliefweb.int/report/bangladesh/climate-change-and-natural-disasters-bangladesh-show-need-focus-vulnerable">Read
+                    More</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="donate-section-title">Get My Updates</h1>
+        <p class="donation-section-intro">Get updates and newsletters from us of our charity work and how your donation
+            distributed to the people who really needs your help.</p>
+        <div class="update-container">
+            <input class="email-box" type="email" placeholder="Email">
+            <a class="sub-button" target="_blank" href="">
+                <h1 class="subscribe-btn-text">Subscribe</h1>
+            </a>
+        </div>
+    </section>
 </body>
+<footer>
+    <div class="foot-title">
+        <h1>Help Other</h1>
+    </div>
+    <div class="foot-info">
+        <p>Copyright © 2022 donate-today.com</p>
+    </div>
+</footer>
 
 </html>
